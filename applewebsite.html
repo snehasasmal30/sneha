@@ -4,29 +4,135 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <title>Apple store</title>
+        <title>Apple Store Online-Apple(IN)</title>
         <link rel="icon" href="Apple_Store_logo.svg.png">
     </head>
     <body>
-        <div class="navbar header" class="container-fluid" id="bar">
-           <a href="#" class="navbar-brand" data-toggle="collapse" data-target="#"><img src="Apple_Store_logo.svg.png" alt="Applelogo"/> </a>
+      <nav class="navbar">
+        <div class="container-fluid" id="bar">
+          <div class="navbar-header">
+          <button class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <a href="#" class="navbar-brand">
+            <img src="Apple_Store_logo.svg.png" alt="Applelogo"/> 
+          </a>
+          </div>
+          <div class="navbar-collapse collapse" id="collapse">
            <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Store</a></li>
-            <li class="active"><a href="#">Mac</a></li>
-            <li class="active"><a href="#">iPad</a></li>
-            <li class="active"><a href="#">iPhone</a></li>
-            <li class="active"><a href="#">Watch</a></li>
-            <li class="active"><a href="#">AirPods</a></li>
-            <li class="active"><a href="#">TV & Home</a></li>
-            <li class="active"><a href="#">Accessories</a></li>
+            <li class="active">
+              <a href="#">
+                Store
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                Mac
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                iPad
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                iPhone
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                Watch
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                AirPods
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                TV & Home
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                Accessories
+              </a>
+            </li>
           </ul>
-          <div>
-            <a href="#" class="active"><span class="glyphicon glyphicon-search" id="search" title="search"></span></a>
-            <a href="#" class="active"><span class="glyphicon glyphicon-shopping-cart" id="shoppingcart" title="mycart"></span></a>
-            <a href="#" class="active"><span class="glyphicon glyphicon-heart" id="heart" title="wishlist"></span></a>
-            <a href="#" id="login"><button type="button" class="btn btn-default">Login</button></a>
-            <a href="#" id="signup"><button type="button" class="btn btn-default">Signup</button></a>
+          <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#" class="active">
+              <span class="glyphicon glyphicon-search" id="search" title="search">
+              </span>
+            </a>
+          </li>
+            <li>
+              <a href="#" class="active">
+                <span class="glyphicon glyphicon-shopping-cart" id="shoppingcart" title="mycart">
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="active">
+                <span class="glyphicon glyphicon-heart" id="heart" title="wishlist">
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" id="login">
+                <span class="glyphicon glyphicon-log-in"></span>
+                  Login
+              </a>
+            </li>
+            <li>
+              <a href="#" id="signup">
+                <span class="glyphicon glyphicon-user"></span>
+                Signup
+              </a>
+            </li>
+          </ul>
           </div>
         </div>
+      </nav>
+      <div class="slideshow-container">
+        <div class="carousel slide" data-ride="carousel" id="myCarousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active" id="myvideo">
+              <video src="video i phone 15.mp4" autoplay muted loop id="video"></video>
+              <div class="carousel-caption">
+                <h1>The Titanium IPhone 15 Pro Max</h1>
+                <h3><p>Dynamic <Island class="ee"></Island></p></h3>
+                <h4><p>For when things just pop up.</p></h>
+              </div>
+            </div>
+            <div  class="item" id="AppleWatch">
+              <img src="untitled-design-13-1663262349424.png" alt="Apple Watch"/>
+            </div>
+            <div class="item" id="macbook">
+               <img src="hero_endframe__ea0qze85eyi6_large.jpg" alt="macbook" />
+               <div class="carousel-caption">
+                <h1>New Macbook Air</h1>
+                <h3><p>Power. It's in the Air.</p></h3>
+                <h4><p>Supercharged by the Apple M1 chip</p></h>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>  
+          </div>
+        </div>
+      </div>
     </body>
 </html>
