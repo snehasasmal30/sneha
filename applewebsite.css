@@ -1,0 +1,52 @@
+#bar img {
+    width: 25px;
+}
+#bar img:hover {
+    transform: scale(1.1);
+}
+#bar {
+    background-color: rgb(226, 224, 224);
+}
+#search {
+    float:right;
+    margin-right: 41%;
+    margin-top: 1.2%;
+    width: 30px;
+}
+#shoppingcart {
+    float:right;
+    margin-right: 38%;
+    width: 30px;
+    margin-top: -1%;
+}
+#search:hover {
+ transform: scale(1.1);
+}
+#shoppingcart:hover {
+    transform: scale(1.1);
+}
+#heart {
+    float:right;
+    margin-right: 35%;
+    width: 30px;
+    margin-top: -1%;
+}
+#heart:hover {
+ transform: scale(1.1);
+}
+#login {
+    float: right;
+    margin-right: 10%;
+    margin-top: -1.8%;
+}
+#login:hover {
+    transform: scale(1.1);
+   }
+#signup {
+    float: right;
+    margin-right: 2%;
+    margin-top: -1.8%;
+}
+#signup:hover {
+    transform: scale(1.1);
+   }
