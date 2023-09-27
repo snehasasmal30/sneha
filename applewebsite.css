@@ -52,3 +52,107 @@ body {
         height: 600px;
         background-color: black;
       }
+      #first {
+        height: 600px;
+        background-color: rgb(174 174 178);
+      }
+      #first img {
+        border-radius: 10%;
+        margin-top: 2%;
+      }
+      #watchtext {
+        color: white;
+        font-weight: 800;
+        text-align: center;
+      }
+      #watchtext a {
+        font-size: 20px;
+      }
+      #second {
+        height: 600px;
+        background-color: white;
+      }
+      #second img {
+        border-radius: 10%;
+        margin-top: 3%;
+        height: 400px;
+        width: 100%;
+      }
+      #collegetext {
+        color: black;
+            font-weight: 800;
+            text-align: center;
+          }
+          #collegetext a {
+            font-size: 20px;
+          }
+    
+    #third {
+        height: 600px;
+        background-color: whitesmoke;
+      }
+      #third img {
+        border-radius: 10%;
+        margin-top: 2%;
+      }
+      #Macbooktext {
+        color: black;
+        font-weight: 800;
+        text-align: center;
+      }
+      #Macbooktext a {
+        font-size: 20px;
+      }
+      #fourth {
+        height: 600px;
+        background-color:rgb(124 124 128);
+      }
+      #fourth img {
+        border-radius: 10%;
+        margin-top: 3%;
+        height: 400px;
+        width: 100%;
+      }
+      #ipadtext {
+        color: white;
+        font-weight: 800;
+        text-align: center;
+      }
+      #ipadtext a {
+        font-size: 20px;
+      }
+      .slider {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        margin: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
+      
+      .slider::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .slider .slide {
+        display: flex;
+        position: absolute;
+        left: 27;
+        transition: 0.3s left ease-in-out;
+        margin-top: 2%;
+      }
+      
+      .slider .item {
+        margin-right: 10px;
+      }
+      
+      .slider .item:last-child {
+        margin-right: 0;
+      }
+      #slide {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      
+      
+      
