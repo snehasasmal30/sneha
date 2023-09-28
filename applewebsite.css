@@ -1,5 +1,10 @@
 body {
     margin: auto;
+    padding: 0px;
+    background-color: white;
+}
+a {
+  text-decoration: none;
 }
 #bar img {
     width: 25px;
@@ -54,7 +59,7 @@ body {
       }
       #first {
         height: 600px;
-        background-color: rgb(174 174 178);
+        background-color: black;
       }
       #first img {
         border-radius: 10%;
@@ -67,6 +72,7 @@ body {
       }
       #watchtext a {
         font-size: 20px;
+        color: white !important;
       }
       #second {
         height: 600px;
@@ -105,7 +111,7 @@ body {
       }
       #fourth {
         height: 600px;
-        background-color:rgb(124 124 128);
+        background-color:black;
       }
       #fourth img {
         border-radius: 10%;
@@ -120,6 +126,7 @@ body {
       }
       #ipadtext a {
         font-size: 20px;
+        color: white !important;
       }
       .slider {
         width: 100%;
@@ -149,10 +156,133 @@ body {
       .slider .item:last-child {
         margin-right: 0;
       }
-      #slide {
+      .slide {
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
+      #slider1 {
+        width: 100%;
+        height: 350px;
+        position: relative;
+        margin: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
       
+      .slider::-webkit-scrollbar {
+        display: none;
+      }
       
+      #slider1 #slide1 {
+        display: flex;
+        position: absolute;
+        left: 27;
+        transition: 0.3s left ease-in-out;
+        margin-top: 2%;
+      }
+      
+      #slider1 .item {
+        margin-right: 10px;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+      }
+      #slider1 .item:last-child {
+        margin-right: 0;
+      }
+      #slide1 {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: gainsboro;
+      }
+      #text1 {
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 2%;
+        margin-top: 2%;
+      }
+      #text2 {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 2%;
+        margin-top: 2%;
+      }
+      #text3 {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 2%;
+        margin-top: 2%;
+      }
+      #appletvlogo {
+        justify-content: center;
+        text-align: center;
+      }
+      #appletvtext {
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      #slider2 {
+        width: 100%;
+        height: 475px;
+        position: relative;
+        margin: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
+      
+      .slider::-webkit-scrollbar {
+        display: none;
+      }
+      
+      #slider2 #slide2 {
+        display: flex;
+        position: absolute;
+        left: 27;
+        transition: 0.3s left ease-in-out;
+        margin-top: 2%;
+      }
+      
+      #slider2 .item {
+        margin-right: 10px;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+      #slider2 .item:last-child {
+        margin-right: 0;
+      }
+      #slide2 {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: black;
+      }
+      #seemore{
+        color: white;
+        background-color: black;
+        border-radius: 15px;
+        margin-left: 50%;
+      }
+    ul{
+        list-style-type:none ;
+    }
+    footer {
+      height: 200px;
+    }
+    .About {
+      display: inline-block;
+      width: 22%;
+    }
+    #main {
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 500;
+    }
+    footer p {
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 500;
+    }
       
